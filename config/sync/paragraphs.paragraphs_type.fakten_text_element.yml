@@ -1,0 +1,10 @@
+uuid: f7cf5385-2865-40f6-80b3-4d7c47cb86a5
+langcode: en
+status: true
+dependencies: {  }
+id: fakten_text_element
+label: 'Fakten Text Element'
+icon_uuid: null
+icon_default: null
+description: 'INERATEC - Fakten Text Element (Paragraph)'
+behavior_plugins: {  }

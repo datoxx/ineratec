@@ -1,0 +1,21 @@
+uuid: 3684ba82-50d7-4f39-806a-3784f73cf873
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_bild_slide_text
+    - paragraphs.paragraphs_type.bild_slide_text
+  module:
+    - text
+id: paragraph.bild_slide_text.field_bild_slide_text
+field_name: field_bild_slide_text
+entity_type: paragraph
+bundle: bild_slide_text
+label: Text
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

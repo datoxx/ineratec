@@ -1,0 +1,10 @@
+uuid: c805f512-26a1-4320-b0b4-1e7ddd5a28a9
+langcode: en
+status: true
+dependencies: {  }
+id: fakten_icons
+label: 'Fakten Icons'
+icon_uuid: null
+icon_default: null
+description: 'INERATEC - Fakten Icons (Paragraph)'
+behavior_plugins: {  }

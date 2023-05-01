@@ -1,0 +1,33 @@
+uuid: 6a4e639a-491e-4eda-9fe8-e13e08f36734
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+    - node
+id: award_pathauto_in_german
+label: 'Award pathauto in German'
+type: 'canonical_entities:node'
+pattern: '/auszeichnungen/[node:title]'
+selection_criteria:
+  6a33e335-c061-445e-a402-811d88d760a4:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 6a33e335-c061-445e-a402-811d88d760a4
+    context_mapping:
+      node: node
+    bundles:
+      award: award
+  56f0ed8d-7585-4de1-9586-9e64129a409d:
+    id: language
+    negate: false
+    uuid: 56f0ed8d-7585-4de1-9586-9e64129a409d
+    context_mapping:
+      language: 'node:langcode:language'
+    langcodes:
+      de: de
+selection_logic: and
+weight: -10
+relationships:
+  'node:langcode:language':
+    label: Language

@@ -1,0 +1,67 @@
+uuid: 7c67d5ef-8ecc-4b88-bb67-ab40b27003c3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.bild_slide_text.field_bild_slide_ausrichtung
+    - field.field.paragraph.bild_slide_text.field_bild_slide_button
+    - field.field.paragraph.bild_slide_text.field_bild_slide_headline
+    - field.field.paragraph.bild_slide_text.field_bild_slide_images
+    - field.field.paragraph.bild_slide_text.field_bild_slide_text
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.bild_slide_text
+  module:
+    - link
+    - svg_image
+    - text
+id: paragraph.bild_slide_text.default
+targetEntityType: paragraph
+bundle: bild_slide_text
+mode: default
+content:
+  field_bild_slide_ausrichtung:
+    type: options_select
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_bild_slide_button:
+    type: link_default
+    weight: 4
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_bild_slide_headline:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_bild_slide_images:
+    type: image_image
+    weight: 1
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_bild_slide_text:
+    type: text_textarea
+    weight: 3
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

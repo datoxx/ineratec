@@ -1,0 +1,34 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e6ec5ff6-9393-406b-8232-7fd95e9364d8
+  bundle: page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Case study'
+  created:
+    -
+      value: 1669293912
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false

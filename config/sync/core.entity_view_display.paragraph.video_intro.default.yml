@@ -1,0 +1,54 @@
+uuid: 9812ff75-7403-4864-b981-9ff112cfdfcf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.video_intro.field_video
+    - field.field.paragraph.video_intro.field_video_intro_button
+    - field.field.paragraph.video_intro.field_video_intro_headline
+    - field.field.paragraph.video_intro.field_video_intro_text
+    - paragraphs.paragraphs_type.video_intro
+  module:
+    - file
+    - link
+    - text
+id: paragraph.video_intro.default
+targetEntityType: paragraph
+bundle: video_intro
+mode: default
+content:
+  field_video:
+    type: file_default
+    label: hidden
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_video_intro_button:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_video_intro_headline:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_video_intro_text:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

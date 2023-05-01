@@ -1,0 +1,18 @@
+uuid: 3231d23c-38a1-41bd-9b03-bfeb51926cdc
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.meilensteine_elemente
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.meilensteine_elemente
+target_entity_type_id: paragraph
+target_bundle: meilensteine_elemente
+default_langcode: site_default
+language_alterable: true

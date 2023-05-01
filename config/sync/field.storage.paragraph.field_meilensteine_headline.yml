@@ -1,0 +1,20 @@
+uuid: 91a640a6-ba44-4807-aab0-5e6790e1aca9
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_meilensteine_headline
+field_name: field_meilensteine_headline
+entity_type: paragraph
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

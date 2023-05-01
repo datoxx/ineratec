@@ -1,0 +1,25 @@
+{#
+/**
+ * @file
+ * The views infinite scroll pager template.
+ */
+#}
+
+{%
+  set classes = [
+		'col-start-1',
+		'xl:col-end-4',
+		'lg:col-end-3',
+		'mt-[-57px]',
+		'w-full',
+		'text-center',
+  ]
+%}
+
+{% if items.next %}
+	<ul{{attributes.addClass(classes)}}>
+		<li class="pager__item">
+			<a class="lg:inline-block text-center lg:w-fit w-full block uppercase text-[14px] font-PtSansBold bg-green py-[12px] px-[30px] rounded-3xl shadow-[0_0_20px_rgba(0,0,0,0.1)]" href="{{ items.next.href }}" title="{{ 'Load more items'|t }}" rel="next">{{ 'load more'| t }}</a>
+		</li>
+	</ul>
+{% endif %}

@@ -1,0 +1,57 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: fd7c6b0d-ea9c-42db-9521-f3d71ef740f1
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    e331d1dc-42ff-4af0-8f40-3a74fb509128: menu_link_content
+    7ecb7a59-b6cb-4dc2-99ff-53878d79ba6e: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Award
+  menu_name:
+    -
+      value: meta
+  link:
+    -
+      target_uuid: 7ecb7a59-b6cb-4dc2-99ff-53878d79ba6e
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:e331d1dc-42ff-4af0-8f40-3a74fb509128'
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_status:
+    -
+      value: true
+  content_translation_created:
+    -
+      value: 1669291455

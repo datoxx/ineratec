@@ -1,0 +1,5 @@
+name: ineratec_default_content
+type: module
+description: This module saves exported content via Default Content module
+package: INERATEC
+core_version_requirement: ^9 || ^10

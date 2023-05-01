@@ -1,0 +1,22 @@
+uuid: 0b42ff5d-26b5-48e7-9ea7-6f19e9cdfe65
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ineratec
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: ineratec_powered
+theme: ineratec
+region: sidebar_first
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

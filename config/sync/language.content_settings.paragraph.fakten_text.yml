@@ -1,0 +1,18 @@
+uuid: 959078d1-f69b-4d5b-93c0-dc56eb854f12
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.fakten_text
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.fakten_text
+target_entity_type_id: paragraph
+target_bundle: fakten_text
+default_langcode: site_default
+language_alterable: true

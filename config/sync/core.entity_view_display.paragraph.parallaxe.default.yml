@@ -1,0 +1,24 @@
+uuid: 63ad06e2-7f94-41b6-91e8-c199a2b3d594
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.parallaxe.field_parallax_element
+    - paragraphs.paragraphs_type.parallaxe
+  module:
+    - entity_reference_revisions
+id: paragraph.parallaxe.default
+targetEntityType: paragraph
+bundle: parallaxe
+mode: default
+content:
+  field_parallax_element:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

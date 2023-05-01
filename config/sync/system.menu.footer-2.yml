@@ -1,0 +1,8 @@
+uuid: 95c1e0a3-44cb-4521-85dd-a57156bb1e4f
+langcode: de
+status: true
+dependencies: {  }
+id: footer-2
+label: 'Footer 2'
+description: ''
+locked: false

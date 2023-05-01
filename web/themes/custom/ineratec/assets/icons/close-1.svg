@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="27px" viewBox="0 0 27 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons/close</title>
+    <g id="Startseite" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="m_Startseite-menu" transform="translate(-328.000000, -37.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="icons/close" transform="translate(328.000000, 37.000000)">
+                <polygon id="Path" points="24 0 27 3 16.4999531 13.5 27 24 24 27 13.4995781 16.4999531 3 27 1.12410081e-14 24 10.499625 13.5 0 3 3 1.91846539e-13 13.5 10.5000469"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

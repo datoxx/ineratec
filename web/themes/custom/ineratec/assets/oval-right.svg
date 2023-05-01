@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="836px" height="1804px" viewBox="0 0 836 1804" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Oval</title>
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50%" id="radialGradient-1">
+            <stop stop-color="#4BAEE5" offset="0%"></stop>
+            <stop stop-color="#4BAEE5" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Startseite" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Startseite-01-more-content" transform="translate(-1084.000000, -1566.000000)" fill="url(#radialGradient-1)">
+            <g id="Oval" transform="translate(1084.000000, 1563.000000)">
+                <circle cx="905" cy="905" r="905"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

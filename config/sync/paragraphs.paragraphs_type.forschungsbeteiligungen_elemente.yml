@@ -1,0 +1,10 @@
+uuid: 9215629e-39a4-4824-8d01-c19837285887
+langcode: en
+status: true
+dependencies: {  }
+id: forschungsbeteiligungen_elemente
+label: 'Forschungsbeteiligungen element'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

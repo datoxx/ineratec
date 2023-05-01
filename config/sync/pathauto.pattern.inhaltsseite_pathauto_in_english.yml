@@ -1,0 +1,33 @@
+uuid: 55867921-db8f-46cd-9d10-ff1d21e22fa6
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+    - node
+id: inhaltsseite_pathauto_in_english
+label: 'Inhaltsseite pathauto in English'
+type: 'canonical_entities:node'
+pattern: '/[node:title]'
+selection_criteria:
+  f191aa87-8298-4d26-bbf8-d0d58f71b210:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: f191aa87-8298-4d26-bbf8-d0d58f71b210
+    context_mapping:
+      node: node
+    bundles:
+      page: page
+  a15a0111-ca4d-46e9-b535-558f2dcd86dd:
+    id: language
+    negate: false
+    uuid: a15a0111-ca4d-46e9-b535-558f2dcd86dd
+    context_mapping:
+      language: 'node:langcode:language'
+    langcodes:
+      en: en
+selection_logic: and
+weight: -10
+relationships:
+  'node:langcode:language':
+    label: Language

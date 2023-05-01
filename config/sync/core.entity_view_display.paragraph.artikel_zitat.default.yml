@@ -1,0 +1,31 @@
+uuid: f825a748-2832-46cf-8476-5af0b20a25c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.artikel_zitat.field_zitat
+    - field.field.paragraph.artikel_zitat.field_zitat_subline
+    - paragraphs.paragraphs_type.artikel_zitat
+  module:
+    - text
+id: paragraph.artikel_zitat.default
+targetEntityType: paragraph
+bundle: artikel_zitat
+mode: default
+content:
+  field_zitat:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_zitat_subline:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

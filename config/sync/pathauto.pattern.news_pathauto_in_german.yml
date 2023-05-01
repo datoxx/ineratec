@@ -1,0 +1,33 @@
+uuid: 6d532f11-258d-477e-ae32-79b7c6164a3a
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+    - node
+id: news_pathauto_in_german
+label: 'News pathauto in German'
+type: 'canonical_entities:node'
+pattern: '/news/[node:title]'
+selection_criteria:
+  ec482f56-11fe-4d59-8787-fb423183e9c3:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: ec482f56-11fe-4d59-8787-fb423183e9c3
+    context_mapping:
+      node: node
+    bundles:
+      news: news
+  08b04c97-8aa6-40b6-8625-be24c084242b:
+    id: language
+    negate: false
+    uuid: 08b04c97-8aa6-40b6-8625-be24c084242b
+    context_mapping:
+      language: 'node:langcode:language'
+    langcodes:
+      de: de
+selection_logic: and
+weight: -10
+relationships:
+  'node:langcode:language':
+    label: Language

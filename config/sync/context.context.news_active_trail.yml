@@ -1,0 +1,30 @@
+uuid: a17d745e-e444-4d84-89fb-804579d276ef
+langcode: en
+status: true
+dependencies:
+  module:
+    - context_active_trail
+    - node
+label: 'News active trail'
+name: news_active_trail
+group: null
+description: ''
+requireAllConditions: false
+disabled: false
+conditions:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 96294d9f-32c3-4658-8e0f-438ea2a847e1
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      news: news
+reactions:
+  active_trail:
+    id: active_trail
+    trail: 'meta:menu_link_content:4768931d-9136-4064-b1db-2d4d17887c56'
+    breadcrumbs: 1
+    breadcrumb_title: 0
+    uuid: 6c2a8682-69c3-4672-9e23-1eceacaf3164
+weight: 0

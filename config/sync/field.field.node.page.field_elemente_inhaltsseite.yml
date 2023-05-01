@@ -1,0 +1,152 @@
+uuid: 97f9455d-0503-4b1c-b571-08ca56a6e0c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_elemente_inhaltsseite
+    - node.type.page
+    - paragraphs.paragraphs_type.2_bildkacheln
+    - paragraphs.paragraphs_type.aggregation
+    - paragraphs.paragraphs_type.artikel_bild
+    - paragraphs.paragraphs_type.artikel_headline
+    - paragraphs.paragraphs_type.artikel_text
+    - paragraphs.paragraphs_type.artikel_zitat
+    - paragraphs.paragraphs_type.bild_slide_text
+    - paragraphs.paragraphs_type.bildslide_text
+    - paragraphs.paragraphs_type.fakten_icons
+    - paragraphs.paragraphs_type.fakten_text
+    - paragraphs.paragraphs_type.forschungsbeteiligungen
+    - paragraphs.paragraphs_type.hero_slider
+    - paragraphs.paragraphs_type.impressionen
+    - paragraphs.paragraphs_type.kontakt
+    - paragraphs.paragraphs_type.map
+    - paragraphs.paragraphs_type.meilensteine
+    - paragraphs.paragraphs_type.parallaxe
+    - paragraphs.paragraphs_type.team
+    - paragraphs.paragraphs_type.text_intro
+    - paragraphs.paragraphs_type.video_intro
+    - paragraphs.paragraphs_type.we_are_animation
+  module:
+    - entity_reference_revisions
+id: node.page.field_elemente_inhaltsseite
+field_name: field_elemente_inhaltsseite
+entity_type: node
+bundle: page
+label: Elemente
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      2_bildkacheln: 2_bildkacheln
+      artikel_bild: artikel_bild
+      artikel_headline: artikel_headline
+      aggregation: aggregation
+      artikel_text: artikel_text
+      artikel_zitat: artikel_zitat
+      bild_slide_text: bild_slide_text
+      bildslide_text: bildslide_text
+      fakten_icons: fakten_icons
+      fakten_text: fakten_text
+      kontakt: kontakt
+      impressionen: impressionen
+      parallaxe: parallaxe
+      forschungsbeteiligungen: forschungsbeteiligungen
+      team: team
+      text_intro: text_intro
+      video_intro: video_intro
+      hero_slider: hero_slider
+      meilensteine: meilensteine
+      map: map
+      we_are_animation: we_are_animation
+    negate: 0
+    target_bundles_drag_drop:
+      2_bildkacheln:
+        weight: 19
+        enabled: true
+      aggregation:
+        weight: 22
+        enabled: true
+      artikel_bild:
+        weight: 20
+        enabled: true
+      artikel_headline:
+        weight: 21
+        enabled: true
+      artikel_text:
+        weight: 22
+        enabled: true
+      artikel_zitat:
+        weight: 23
+        enabled: true
+      bild_slide_text:
+        weight: 24
+        enabled: true
+      bildslide_text:
+        weight: 25
+        enabled: true
+      fakten_icon_element:
+        weight: 26
+        enabled: false
+      fakten_icons:
+        weight: 27
+        enabled: true
+      fakten_text:
+        weight: 28
+        enabled: true
+      fakten_text_element:
+        weight: 29
+        enabled: false
+      forschungsbeteiligungen:
+        weight: 33
+        enabled: true
+      forschungsbeteiligungen_elemente:
+        weight: 34
+        enabled: false
+      hero_slider:
+        weight: 37
+        enabled: true
+      hero_slider_element:
+        weight: 38
+        enabled: false
+      impressionen:
+        weight: 31
+        enabled: true
+      kontakt:
+        weight: 30
+        enabled: true
+      map:
+        weight: 47
+        enabled: true
+      meilensteine:
+        weight: 46
+        enabled: true
+      meilensteine_elemente:
+        weight: 47
+        enabled: false
+      parallax_element:
+        weight: 31
+        enabled: false
+      parallaxe:
+        weight: 32
+        enabled: true
+      team:
+        weight: 33
+        enabled: true
+      team_element:
+        weight: 34
+        enabled: false
+      text_intro:
+        weight: 35
+        enabled: true
+      video_intro:
+        weight: 36
+        enabled: true
+      we_are_animation:
+        weight: 48
+        enabled: true
+field_type: entity_reference_revisions

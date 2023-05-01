@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="16px" viewBox="0 0 10 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons/chevron-left</title>
+    <g id="Startseite" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="m_Startseite-menu-eben-02-Unternehmen" transform="translate(-23.000000, -92.000000)" fill="#7BF0AC" fill-rule="nonzero">
+            <g id="icons/chevron-left" transform="translate(23.000000, 92.000000)">
+                <polygon id="icons/chevron-down" points="7.69885412 16 10 13.8570229 4.33426243 8.00154989 10 2.14297707 7.91790924 0 0 8.02778862"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

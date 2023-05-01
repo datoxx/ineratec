@@ -1,0 +1,19 @@
+uuid: 864c68db-fc7f-423c-b866-5cf820c87086
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_teaser_award
+    - node.type.award
+id: node.award.field_teaser_award
+field_name: field_teaser_award
+entity_type: node
+bundle: award
+label: Teaser
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

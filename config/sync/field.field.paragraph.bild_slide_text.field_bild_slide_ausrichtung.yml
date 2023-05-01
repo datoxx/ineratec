@@ -1,0 +1,21 @@
+uuid: 88403b0b-0ee0-43f4-9258-f23574fe972c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_bild_slide_ausrichtung
+    - paragraphs.paragraphs_type.bild_slide_text
+  module:
+    - options
+id: paragraph.bild_slide_text.field_bild_slide_ausrichtung
+field_name: field_bild_slide_ausrichtung
+entity_type: paragraph
+bundle: bild_slide_text
+label: Ausrichtung
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

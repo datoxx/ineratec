@@ -1,0 +1,91 @@
+uuid: a7f560a5-1c14-4792-907a-4671e5fe2334
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_forschung_elemente
+    - paragraphs.paragraphs_type.forschungsbeteiligungen
+    - paragraphs.paragraphs_type.forschungsbeteiligungen_elemente
+  module:
+    - entity_reference_revisions
+id: paragraph.forschungsbeteiligungen.field_forschung_elemente
+field_name: field_forschung_elemente
+entity_type: paragraph
+bundle: forschungsbeteiligungen
+label: Elemente
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      forschungsbeteiligungen_elemente: forschungsbeteiligungen_elemente
+    negate: 0
+    target_bundles_drag_drop:
+      2_bildkacheln:
+        weight: 22
+        enabled: false
+      artikel_bild:
+        weight: 23
+        enabled: false
+      artikel_headline:
+        weight: 24
+        enabled: false
+      artikel_text:
+        weight: 25
+        enabled: false
+      artikel_zitat:
+        weight: 26
+        enabled: false
+      bild_slide_text:
+        weight: 27
+        enabled: false
+      bildslide_text:
+        weight: 28
+        enabled: false
+      fakten_icon_element:
+        weight: 29
+        enabled: false
+      fakten_icons:
+        weight: 30
+        enabled: false
+      fakten_text:
+        weight: 31
+        enabled: false
+      fakten_text_element:
+        weight: 32
+        enabled: false
+      forschungsbeteiligungen:
+        weight: 33
+        enabled: false
+      forschungsbeteiligungen_elemente:
+        weight: 21
+        enabled: true
+      impressionen:
+        weight: 35
+        enabled: false
+      kontakt:
+        weight: 34
+        enabled: false
+      parallax_element:
+        weight: 35
+        enabled: false
+      parallaxe:
+        weight: 36
+        enabled: false
+      team:
+        weight: 37
+        enabled: false
+      team_element:
+        weight: 38
+        enabled: false
+      text_intro:
+        weight: 39
+        enabled: false
+      video_intro:
+        weight: 40
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,39 @@
+uuid: 378e5c47-68d4-4eac-83d2-ac58c4e02348
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.artikel_zitat.field_zitat
+    - field.field.paragraph.artikel_zitat.field_zitat_subline
+    - paragraphs.paragraphs_type.artikel_zitat
+  module:
+    - text
+id: paragraph.artikel_zitat.default
+targetEntityType: paragraph
+bundle: artikel_zitat
+mode: default
+content:
+  field_zitat:
+    type: text_textarea
+    weight: 0
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_zitat_subline:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

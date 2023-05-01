@@ -1,0 +1,19 @@
+uuid: 6eff3d3f-3a7f-43c9-a8d4-b0c76e334c5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_headline_case_study
+    - node.type.case_study
+id: node.case_study.field_headline_case_study
+field_name: field_headline_case_study
+entity_type: node
+bundle: case_study
+label: Headline
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

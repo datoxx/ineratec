@@ -1,0 +1,17 @@
+uuid: 8a9f3f12-7585-4da0-929a-f2a5a8890050
+langcode: en
+status: true
+dependencies: {  }
+id: globale_einstellungen
+label: 'Global settings'
+token: false
+context:
+  show_warning: true
+  group:
+    language: false
+  fallback:
+    language: ''
+menu:
+  path: ''
+  weight: 0
+  description: 'Globale Einstellungen'

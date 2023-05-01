@@ -1,0 +1,21 @@
+uuid: 9f6bae2e-93e5-4f30-83b2-f42191c2d56f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_right
+    - paragraphs.paragraphs_type.2_bildkacheln
+  module:
+    - text
+id: paragraph.2_bildkacheln.field_text_right
+field_name: field_text_right
+entity_type: paragraph
+bundle: 2_bildkacheln
+label: Text
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

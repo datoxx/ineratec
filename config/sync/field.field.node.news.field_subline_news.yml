@@ -1,0 +1,19 @@
+uuid: 15c697e0-4f71-41b2-b9df-a032e01e5d00
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_subline_news
+    - node.type.news
+id: node.news.field_subline_news
+field_name: field_subline_news
+entity_type: node
+bundle: news
+label: Subline
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

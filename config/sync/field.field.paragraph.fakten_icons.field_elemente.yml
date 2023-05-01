@@ -1,0 +1,34 @@
+uuid: 4b410e0c-81b1-4452-a4d7-6fee5e16e885
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_elemente
+    - paragraphs.paragraphs_type.fakten_icon_element
+    - paragraphs.paragraphs_type.fakten_icons
+  module:
+    - entity_reference_revisions
+id: paragraph.fakten_icons.field_elemente
+field_name: field_elemente
+entity_type: paragraph
+bundle: fakten_icons
+label: Elemente
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      fakten_icon_element: fakten_icon_element
+    negate: 0
+    target_bundles_drag_drop:
+      fakten_icon_element:
+        weight: 3
+        enabled: true
+      fakten_icons:
+        weight: 2
+        enabled: false
+field_type: entity_reference_revisions

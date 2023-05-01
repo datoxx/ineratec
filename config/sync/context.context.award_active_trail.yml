@@ -1,0 +1,30 @@
+uuid: e50c9c51-7aba-4a85-9132-a143c247aba4
+langcode: en
+status: true
+dependencies:
+  module:
+    - context_active_trail
+    - node
+label: 'Award active trail'
+name: award_active_trail
+group: null
+description: ''
+requireAllConditions: false
+disabled: false
+conditions:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: a0c181ce-9537-4893-bf89-8442c114343f
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      award: award
+reactions:
+  active_trail:
+    id: active_trail
+    trail: 'meta:menu_link_content:fd7c6b0d-ea9c-42db-9521-f3d71ef740f1'
+    breadcrumbs: 1
+    breadcrumb_title: 0
+    uuid: 3a138613-fcfe-407b-8ed1-15293f05483b
+weight: 0

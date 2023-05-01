@@ -1,0 +1,21 @@
+uuid: 8d670d28-3d6c-4a25-ad66-a328cd6ee475
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_meilensteine_text
+    - paragraphs.paragraphs_type.meilensteine_elemente
+  module:
+    - text
+id: paragraph.meilensteine_elemente.field_meilensteine_text
+field_name: field_meilensteine_text
+entity_type: paragraph
+bundle: meilensteine_elemente
+label: Text
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

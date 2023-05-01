@@ -1,0 +1,45 @@
+uuid: b617f6b1-0537-43a5-9f62-a30d6c5b76f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_portrait
+    - paragraphs.paragraphs_type.team_element
+  module:
+    - content_translation
+    - image
+third_party_settings:
+  content_translation:
+    translation_sync:
+      alt: alt
+      title: title
+      file: '0'
+id: paragraph.team_element.field_portrait
+field_name: field_portrait
+entity_type: paragraph
+bundle: team_element
+label: Portrait
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png jpg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

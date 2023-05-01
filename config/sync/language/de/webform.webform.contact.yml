@@ -1,0 +1,43 @@
+title: Kontakt
+description: 'Einfaches E-Mail-Kontaktformular.'
+elements: |
+  Name:
+    '#title': 'Ihr Name'
+    '#type': textfield
+    '#required': true
+    '#default_value': '[current-user:display-name]'
+  E-Mail:
+    '#title': 'Ihre Email-Adresse'
+    '#type': email
+    '#required': true
+    '#default_value': '[current-user:mail]'
+  Betreff:
+    '#title': Betreff
+    '#type': textfield
+    '#required': true
+    '#test': 'Teste Kontakt-Webformular von [site:name]'
+  Nachricht:
+    '#title': Nachricht
+    '#type': textarea
+    '#required': true
+    '#test': 'Bitte ignorieren Sie diese E-Mail.'
+  Aktionen:
+    '#type': webform_actions
+    '#title': Senden-Button
+    '#submit__label': 'E-Mail Senden'
+settings:
+  confirmation_message: 'Ihre Nachricht wurde gesendet.'
+  confirmation_url: '&lt;front&gt;'
+handlers:
+  email_confirmation:
+    label: 'Bestätigung via E-Mail'
+    settings:
+      from_name: _default
+      subject: '[webform_submission:values:subject:raw]'
+      body: '[webform_submission:values:message:value]'
+  email_notification:
+    label: E-Mail-Benachrichtigung
+    settings:
+      from_name: '[webform_submission:values:name:raw]'
+      subject: '[webform_submission:values:subject:raw]'
+      body: '[webform_submission:values:message:value]'

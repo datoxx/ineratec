@@ -1,0 +1,30 @@
+uuid: a9c1cb25-8b03-4e8f-9385-6ecb3827b96c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.impressionen.field_bild_impressionen
+    - paragraphs.paragraphs_type.impressionen
+  module:
+    - svg_image
+id: paragraph.impressionen.default
+targetEntityType: paragraph
+bundle: impressionen
+mode: default
+content:
+  field_bild_impressionen:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

@@ -1,0 +1,21 @@
+uuid: 43ecfeb7-3b55-41d6-909a-f90d40f6ab0e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_subline_projekt
+field_name: field_subline_projekt
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

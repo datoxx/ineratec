@@ -1,0 +1,19 @@
+uuid: 0f3cd55e-e479-489c-ab6f-578d57058d91
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_forschung_link
+    - paragraphs.paragraphs_type.forschungsbeteiligungen_elemente
+id: paragraph.forschungsbeteiligungen_elemente.field_forschung_link
+field_name: field_forschung_link
+entity_type: paragraph
+bundle: forschungsbeteiligungen_elemente
+label: Link
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

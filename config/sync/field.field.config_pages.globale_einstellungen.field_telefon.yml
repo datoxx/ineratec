@@ -1,0 +1,21 @@
+uuid: 763bc6d2-f951-424b-89b8-1179459e012b
+langcode: en
+status: true
+dependencies:
+  config:
+    - config_pages.type.globale_einstellungen
+    - field.storage.config_pages.field_telefon
+  module:
+    - text
+id: config_pages.globale_einstellungen.field_telefon
+field_name: field_telefon
+entity_type: config_pages
+bundle: globale_einstellungen
+label: telefon
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

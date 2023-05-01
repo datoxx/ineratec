@@ -1,0 +1,41 @@
+uuid: 8830ff1e-8e68-4e63-a2cd-6a50081d0e0f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.we_are_animation.field_bild_animation
+    - field.field.paragraph.we_are_animation.field_text_animation
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.we_are_animation
+  module:
+    - svg_image
+    - text
+id: paragraph.we_are_animation.default
+targetEntityType: paragraph
+bundle: we_are_animation
+mode: default
+content:
+  field_bild_animation:
+    type: image_image
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_text_animation:
+    type: text_textarea
+    weight: 11
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

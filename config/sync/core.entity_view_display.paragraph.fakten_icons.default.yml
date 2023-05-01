@@ -1,0 +1,24 @@
+uuid: fed1421a-9c37-4ad3-bfe6-ea08f6c284ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.fakten_icons.field_elemente
+    - paragraphs.paragraphs_type.fakten_icons
+  module:
+    - entity_reference_revisions
+id: paragraph.fakten_icons.default
+targetEntityType: paragraph
+bundle: fakten_icons
+mode: default
+content:
+  field_elemente:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

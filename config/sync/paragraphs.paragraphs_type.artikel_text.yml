@@ -1,0 +1,10 @@
+uuid: d1f79bce-55f0-427c-afa0-fb84983e986e
+langcode: en
+status: true
+dependencies: {  }
+id: artikel_text
+label: 'Artikel Text'
+icon_uuid: null
+icon_default: null
+description: 'INERATEC - Artikel Text (Paragraph)'
+behavior_plugins: {  }

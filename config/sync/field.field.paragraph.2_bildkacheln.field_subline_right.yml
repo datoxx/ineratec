@@ -1,0 +1,19 @@
+uuid: 90566fef-38cf-4cb8-ac26-4cd8c05a0984
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_subline_right
+    - paragraphs.paragraphs_type.2_bildkacheln
+id: paragraph.2_bildkacheln.field_subline_right
+field_name: field_subline_right
+entity_type: paragraph
+bundle: 2_bildkacheln
+label: Subline
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

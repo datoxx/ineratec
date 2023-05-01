@@ -1,0 +1,45 @@
+uuid: b9b43ce7-43bf-42ce-8bea-2976b75bb000
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_bild_impressionen
+    - paragraphs.paragraphs_type.impressionen
+  module:
+    - content_translation
+    - image
+third_party_settings:
+  content_translation:
+    translation_sync:
+      alt: alt
+      title: title
+      file: '0'
+id: paragraph.impressionen.field_bild_impressionen
+field_name: field_bild_impressionen
+entity_type: paragraph
+bundle: impressionen
+label: Bild
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'jpg png svg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

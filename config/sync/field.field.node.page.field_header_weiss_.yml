@@ -1,0 +1,23 @@
+uuid: 0b070a2b-04ca-4791-9e3e-ce5a6bfb2ac2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_header_weiss_
+    - node.type.page
+id: node.page.field_header_weiss_
+field_name: field_header_weiss_
+entity_type: node
+bundle: page
+label: 'Header (weiß)'
+description: 'The button changes the header text color to white. The default text color is blue.'
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

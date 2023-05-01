@@ -1,0 +1,21 @@
+uuid: f9400e4b-e3cf-42fa-a250-adf28728b2fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - config_pages.type.globale_einstellungen
+    - field.storage.config_pages.field_instagram
+  module:
+    - text
+id: config_pages.globale_einstellungen.field_instagram
+field_name: field_instagram
+entity_type: config_pages
+bundle: globale_einstellungen
+label: Instagram
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

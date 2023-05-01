@@ -1,0 +1,10 @@
+uuid: 7eb38552-9768-4090-bbc5-cc680c96b2e1
+langcode: en
+status: true
+dependencies: {  }
+id: we_are_animation
+label: 'We are Animation'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

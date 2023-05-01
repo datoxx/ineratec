@@ -1,0 +1,19 @@
+uuid: 32ae4f8e-985b-4961-8d56-6e4f329a9cae
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_subline_award
+    - node.type.award
+id: node.award.field_subline_award
+field_name: field_subline_award
+entity_type: node
+bundle: award
+label: Subline
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

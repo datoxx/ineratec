@@ -1,0 +1,10 @@
+uuid: 30f7e2b5-7cce-45b1-9666-c0885472ed41
+langcode: en
+status: true
+dependencies: {  }
+id: artikel_zitat
+label: 'Artikel Zitat'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

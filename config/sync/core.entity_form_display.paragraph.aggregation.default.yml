@@ -1,0 +1,21 @@
+uuid: 2aa761b8-b3d2-4950-a8ad-c9652b8856f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.aggregation.field_element_aggregation
+    - paragraphs.paragraphs_type.aggregation
+id: paragraph.aggregation.default
+targetEntityType: paragraph
+bundle: aggregation
+mode: default
+content:
+  field_element_aggregation:
+    type: options_select
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

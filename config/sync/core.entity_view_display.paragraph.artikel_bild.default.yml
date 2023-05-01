@@ -1,0 +1,48 @@
+uuid: c5582872-f076-46f6-b308-20437e8038bf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.artikel_bild.field_anzeige
+    - field.field.paragraph.artikel_bild.field_artikel_bild
+    - field.field.paragraph.artikel_bild.field_bildunterschrift
+    - paragraphs.paragraphs_type.artikel_bild
+  module:
+    - options
+    - svg_image
+id: paragraph.artikel_bild.default
+targetEntityType: paragraph
+bundle: artikel_bild
+mode: default
+content:
+  field_anzeige:
+    type: list_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_artikel_bild:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_bildunterschrift:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

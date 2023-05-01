@@ -1,0 +1,31 @@
+uuid: ec50df87-47b1-4228-bda2-347df0de6b07
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.impressionen.field_bild_impressionen
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.impressionen
+  module:
+    - svg_image
+id: paragraph.impressionen.default
+targetEntityType: paragraph
+bundle: impressionen
+mode: default
+content:
+  field_bild_impressionen:
+    type: image_image
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

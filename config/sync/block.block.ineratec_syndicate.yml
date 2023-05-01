@@ -1,0 +1,23 @@
+uuid: 986cf166-a8c3-4044-a05e-3840130759d7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - ineratec
+_core:
+  default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
+id: ineratec_syndicate
+theme: ineratec
+region: sidebar_first
+weight: 0
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

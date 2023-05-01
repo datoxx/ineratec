@@ -1,0 +1,33 @@
+uuid: e661c909-2c5f-400a-9e21-bdaee9431221
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+    - node
+id: event_pathauto_in_german
+label: 'Event pathauto in German'
+type: 'canonical_entities:node'
+pattern: '/veranstaltungen/[node:title]'
+selection_criteria:
+  3795ac1f-154d-4b0a-b0c3-bd10203fe8ab:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 3795ac1f-154d-4b0a-b0c3-bd10203fe8ab
+    context_mapping:
+      node: node
+    bundles:
+      event: event
+  8be45d42-1b8e-4920-ba2b-36ac48228c9a:
+    id: language
+    negate: false
+    uuid: 8be45d42-1b8e-4920-ba2b-36ac48228c9a
+    context_mapping:
+      language: 'node:langcode:language'
+    langcodes:
+      de: de
+selection_logic: and
+weight: -10
+relationships:
+  'node:langcode:language':
+    label: Language

@@ -1,0 +1,10 @@
+uuid: cd15ea09-46cc-4897-9fbc-98add2365471
+langcode: en
+status: true
+dependencies: {  }
+id: aggregation
+label: Aggregation
+icon_uuid: null
+icon_default: null
+description: 'INERATEC - Aggregation (Paragraph)'
+behavior_plugins: {  }

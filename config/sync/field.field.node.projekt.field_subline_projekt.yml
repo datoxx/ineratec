@@ -1,0 +1,19 @@
+uuid: 3581846f-1dd9-4486-920d-a728ccd8e0c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_subline_projekt
+    - node.type.projekt
+id: node.projekt.field_subline_projekt
+field_name: field_subline_projekt
+entity_type: node
+bundle: projekt
+label: Subline
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

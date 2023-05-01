@@ -1,0 +1,19 @@
+uuid: c24b038c-4602-4b55-86f1-ce1ee5ed6f5d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_teaser_award
+field_name: field_teaser_award
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

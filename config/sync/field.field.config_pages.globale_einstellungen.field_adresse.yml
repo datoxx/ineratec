@@ -1,0 +1,21 @@
+uuid: 15c9a482-8f64-465b-94ee-9c491e653049
+langcode: en
+status: true
+dependencies:
+  config:
+    - config_pages.type.globale_einstellungen
+    - field.storage.config_pages.field_adresse
+  module:
+    - text
+id: config_pages.globale_einstellungen.field_adresse
+field_name: field_adresse
+entity_type: config_pages
+bundle: globale_einstellungen
+label: address
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,22 @@
+uuid: 38a34e29-7745-46fe-b257-116d8dc217cc
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - ineratec
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: ineratec_help
+theme: ineratec
+region: sidebar_first
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

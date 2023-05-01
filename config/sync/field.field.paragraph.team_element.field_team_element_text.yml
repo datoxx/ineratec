@@ -1,0 +1,21 @@
+uuid: 22aca94f-4bae-4a9c-b109-abf0a4b80f83
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_team_element_text
+    - paragraphs.paragraphs_type.team_element
+  module:
+    - text
+id: paragraph.team_element.field_team_element_text
+field_name: field_team_element_text
+entity_type: paragraph
+bundle: team_element
+label: 'Team Element Text'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

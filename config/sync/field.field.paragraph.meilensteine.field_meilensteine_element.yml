@@ -1,0 +1,106 @@
+uuid: 156939e3-cb69-4709-8a96-c883f371d5b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_meilensteine_element
+    - paragraphs.paragraphs_type.meilensteine
+    - paragraphs.paragraphs_type.meilensteine_elemente
+  module:
+    - entity_reference_revisions
+id: paragraph.meilensteine.field_meilensteine_element
+field_name: field_meilensteine_element
+entity_type: paragraph
+bundle: meilensteine
+label: Element
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      meilensteine_elemente: meilensteine_elemente
+    negate: 0
+    target_bundles_drag_drop:
+      2_bildkacheln:
+        weight: 28
+        enabled: false
+      artikel_bild:
+        weight: 29
+        enabled: false
+      artikel_headline:
+        weight: 30
+        enabled: false
+      artikel_text:
+        weight: 31
+        enabled: false
+      artikel_zitat:
+        weight: 32
+        enabled: false
+      bild_slide_text:
+        weight: 33
+        enabled: false
+      bildslide_text:
+        weight: 34
+        enabled: false
+      fakten_icon_element:
+        weight: 35
+        enabled: false
+      fakten_icons:
+        weight: 36
+        enabled: false
+      fakten_text:
+        weight: 37
+        enabled: false
+      fakten_text_element:
+        weight: 38
+        enabled: false
+      forschungsbeteiligungen:
+        weight: 39
+        enabled: false
+      forschungsbeteiligungen_elemente:
+        weight: 40
+        enabled: false
+      hero_slider:
+        weight: 41
+        enabled: false
+      hero_slider_element:
+        weight: 42
+        enabled: false
+      impressionen:
+        weight: 43
+        enabled: false
+      kontakt:
+        weight: 44
+        enabled: false
+      meilensteine:
+        weight: 27
+        enabled: false
+      meilensteine_elemente:
+        weight: 45
+        enabled: true
+      parallax_element:
+        weight: 46
+        enabled: false
+      parallaxe:
+        weight: 47
+        enabled: false
+      team:
+        weight: 48
+        enabled: false
+      team_element:
+        weight: 49
+        enabled: false
+      text_intro:
+        weight: 50
+        enabled: false
+      video_intro:
+        weight: 51
+        enabled: false
+      we_are_animation:
+        weight: 52
+        enabled: false
+field_type: entity_reference_revisions

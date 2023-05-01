@@ -1,0 +1,19 @@
+uuid: 55e7d268-89c7-4458-9df9-0e47fce88437
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_teaser_projekt
+    - node.type.projekt
+id: node.projekt.field_teaser_projekt
+field_name: field_teaser_projekt
+entity_type: node
+bundle: projekt
+label: Teaser
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

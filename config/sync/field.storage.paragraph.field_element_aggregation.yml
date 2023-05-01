@@ -1,0 +1,36 @@
+uuid: eabe9efb-332d-47be-87e8-3e381ecd1ced
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_element_aggregation
+field_name: field_element_aggregation
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: project
+      label: 'Projekt Übersicht'
+    -
+      value: event
+      label: 'Event Übersicht'
+    -
+      value: news
+      label: 'News Übersicht'
+    -
+      value: award
+      label: 'Awards Übersicht'
+    -
+      value: casestudy
+      label: 'Case Study Übersicht'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

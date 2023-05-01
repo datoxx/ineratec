@@ -1,0 +1,10 @@
+uuid: 464eedad-7d6b-4608-9e2b-2103a4216f6a
+langcode: en
+status: true
+dependencies: {  }
+id: parallaxe
+label: Parallaxe
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

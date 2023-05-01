@@ -1,0 +1,112 @@
+uuid: aeef84b5-2013-4b9d-bf07-b904ebc9266f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_parallax_element
+    - paragraphs.paragraphs_type.parallax_element
+    - paragraphs.paragraphs_type.parallaxe
+  module:
+    - entity_reference_revisions
+id: paragraph.parallaxe.field_parallax_element
+field_name: field_parallax_element
+entity_type: paragraph
+bundle: parallaxe
+label: Element
+description: 'In this Parallax, If you fill in the "Headline" field only this one appears. If you want to show a "Text" field please fill in only the "Text" field.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      parallax_element: parallax_element
+    negate: 0
+    target_bundles_drag_drop:
+      2_bildkacheln:
+        weight: 18
+        enabled: false
+      aggregation:
+        weight: 30
+        enabled: false
+      artikel_bild:
+        weight: 19
+        enabled: false
+      artikel_headline:
+        weight: 20
+        enabled: false
+      artikel_text:
+        weight: 21
+        enabled: false
+      artikel_zitat:
+        weight: 22
+        enabled: false
+      bild_slide_text:
+        weight: 36
+        enabled: false
+      bildslide_text:
+        weight: 23
+        enabled: false
+      fakten_icon_element:
+        weight: 24
+        enabled: false
+      fakten_icons:
+        weight: 25
+        enabled: false
+      fakten_text:
+        weight: 26
+        enabled: false
+      fakten_text_element:
+        weight: 27
+        enabled: false
+      forschungsbeteiligungen:
+        weight: 41
+        enabled: false
+      forschungsbeteiligungen_elemente:
+        weight: 42
+        enabled: false
+      hero_slider:
+        weight: 43
+        enabled: false
+      hero_slider_element:
+        weight: 44
+        enabled: false
+      impressionen:
+        weight: 45
+        enabled: false
+      kontakt:
+        weight: 46
+        enabled: false
+      map:
+        weight: 47
+        enabled: false
+      meilensteine:
+        weight: 48
+        enabled: false
+      meilensteine_elemente:
+        weight: 49
+        enabled: false
+      parallax_element:
+        weight: 28
+        enabled: true
+      parallaxe:
+        weight: 17
+        enabled: false
+      team:
+        weight: 29
+        enabled: false
+      team_element:
+        weight: 30
+        enabled: false
+      text_intro:
+        weight: 31
+        enabled: false
+      video_intro:
+        weight: 32
+        enabled: false
+      we_are_animation:
+        weight: 56
+        enabled: false
+field_type: entity_reference_revisions

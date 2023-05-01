@@ -1,0 +1,19 @@
+uuid: eaecde29-b820-4f1c-9e0a-850bb208b2bd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_bildside_subline
+    - paragraphs.paragraphs_type.bildslide_text
+id: paragraph.bildslide_text.field_bildside_subline
+field_name: field_bildside_subline
+entity_type: paragraph
+bundle: bildslide_text
+label: Subline
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

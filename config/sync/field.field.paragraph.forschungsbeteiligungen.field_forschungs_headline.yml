@@ -1,0 +1,19 @@
+uuid: c58277cd-abd5-4891-9bef-82656b20ac6a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_forschungs_headline
+    - paragraphs.paragraphs_type.forschungsbeteiligungen
+id: paragraph.forschungsbeteiligungen.field_forschungs_headline
+field_name: field_forschungs_headline
+entity_type: paragraph
+bundle: forschungsbeteiligungen
+label: Headline
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

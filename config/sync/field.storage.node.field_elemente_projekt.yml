@@ -1,0 +1,21 @@
+uuid: c5b0a7e2-1fbe-4a28-9331-1fcc8c47d79f
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - node
+    - paragraphs
+id: node.field_elemente_projekt
+field_name: field_elemente_projekt
+entity_type: node
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

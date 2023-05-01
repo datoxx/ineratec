@@ -1,0 +1,10 @@
+uuid: e439a986-38dd-4779-8081-2ddec726866a
+langcode: en
+status: true
+dependencies: {  }
+id: video_intro
+label: 'Video Intro'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

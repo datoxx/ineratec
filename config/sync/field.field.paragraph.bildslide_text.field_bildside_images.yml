@@ -1,0 +1,45 @@
+uuid: 6e4802c4-c032-4839-9a70-71eb66719e9c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_bildside_images
+    - paragraphs.paragraphs_type.bildslide_text
+  module:
+    - content_translation
+    - image
+third_party_settings:
+  content_translation:
+    translation_sync:
+      alt: alt
+      title: title
+      file: '0'
+id: paragraph.bildslide_text.field_bildside_images
+field_name: field_bildside_images
+entity_type: paragraph
+bundle: bildslide_text
+label: Images
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png jpg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

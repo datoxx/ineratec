@@ -1,0 +1,19 @@
+uuid: 305919f4-f4f6-4299-8641-88eeb9b205d0
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_team_headline
+field_name: field_team_headline
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

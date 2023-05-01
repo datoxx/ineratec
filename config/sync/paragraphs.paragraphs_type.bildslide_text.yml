@@ -1,0 +1,10 @@
+uuid: 9cb55fd9-af80-4e25-8143-931e619483c5
+langcode: en
+status: true
+dependencies: {  }
+id: bildslide_text
+label: 'Text + Bild'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

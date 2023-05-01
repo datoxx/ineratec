@@ -1,0 +1,19 @@
+uuid: 7d8f5990-4296-464a-a562-d135620a378f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_teaser_news
+    - node.type.news
+id: node.news.field_teaser_news
+field_name: field_teaser_news
+entity_type: node
+bundle: news
+label: teaser
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

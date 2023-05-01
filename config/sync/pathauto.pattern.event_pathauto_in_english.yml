@@ -1,0 +1,33 @@
+uuid: 319bb277-001d-4a20-bf35-da412c2e4a7e
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+    - node
+id: event_pathauto_in_english
+label: 'Event pathauto in English'
+type: 'canonical_entities:node'
+pattern: '/events/[node:title]'
+selection_criteria:
+  7ee62565-2e68-45cb-9e03-c90162d39a52:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 7ee62565-2e68-45cb-9e03-c90162d39a52
+    context_mapping:
+      node: node
+    bundles:
+      event: event
+  dc7cba1e-216f-4224-a1a2-6d376254d6c4:
+    id: language
+    negate: false
+    uuid: dc7cba1e-216f-4224-a1a2-6d376254d6c4
+    context_mapping:
+      language: 'node:langcode:language'
+    langcodes:
+      en: en
+selection_logic: and
+weight: -10
+relationships:
+  'node:langcode:language':
+    label: Language

@@ -1,0 +1,21 @@
+uuid: 2a9e6afd-983b-4e8b-afdf-76ec58178a8c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_animation
+    - paragraphs.paragraphs_type.we_are_animation
+  module:
+    - text
+id: paragraph.we_are_animation.field_text_animation
+field_name: field_text_animation
+entity_type: paragraph
+bundle: we_are_animation
+label: Text
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

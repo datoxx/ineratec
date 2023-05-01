@@ -1,0 +1,21 @@
+uuid: b016d030-a93f-4ea8-bb9d-985ff9edb85b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_parallax_headline
+    - paragraphs.paragraphs_type.parallax_element
+  module:
+    - text
+id: paragraph.parallax_element.field_parallax_headline
+field_name: field_parallax_headline
+entity_type: paragraph
+bundle: parallax_element
+label: Headline
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

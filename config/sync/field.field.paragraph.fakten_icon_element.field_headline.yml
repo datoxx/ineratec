@@ -1,0 +1,19 @@
+uuid: f9c1fed9-83b1-4437-b074-500b3e80ba5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_headline
+    - paragraphs.paragraphs_type.fakten_icon_element
+id: paragraph.fakten_icon_element.field_headline
+field_name: field_headline
+entity_type: paragraph
+bundle: fakten_icon_element
+label: Headline
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,40 @@
+uuid: 6e1a033c-16a0-4b1a-b5e0-90be65a99434
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_elemente_fakten_text
+    - paragraphs.paragraphs_type.fakten_text
+    - paragraphs.paragraphs_type.fakten_text_element
+  module:
+    - entity_reference_revisions
+id: paragraph.fakten_text.field_elemente_fakten_text
+field_name: field_elemente_fakten_text
+entity_type: paragraph
+bundle: fakten_text
+label: Elemente
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      fakten_text_element: fakten_text_element
+    negate: 0
+    target_bundles_drag_drop:
+      fakten_icon_element:
+        weight: 6
+        enabled: false
+      fakten_icons:
+        weight: 7
+        enabled: false
+      fakten_text:
+        weight: 8
+        enabled: false
+      fakten_text_element:
+        weight: 5
+        enabled: true
+field_type: entity_reference_revisions

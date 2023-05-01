@@ -1,0 +1,21 @@
+uuid: 9cc5dbf5-304c-4547-a91b-e5c333e0b841
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_meilensteine_headline
+    - paragraphs.paragraphs_type.meilensteine_elemente
+  module:
+    - text
+id: paragraph.meilensteine_elemente.field_meilensteine_headline
+field_name: field_meilensteine_headline
+entity_type: paragraph
+bundle: meilensteine_elemente
+label: Headline
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

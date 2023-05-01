@@ -1,0 +1,21 @@
+uuid: ab4dc56d-c878-4407-9526-e2c12026786f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_slider_hero_text
+    - paragraphs.paragraphs_type.hero_slider_element
+  module:
+    - text
+id: paragraph.hero_slider_element.field_slider_hero_text
+field_name: field_slider_hero_text
+entity_type: paragraph
+bundle: hero_slider_element
+label: Text
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

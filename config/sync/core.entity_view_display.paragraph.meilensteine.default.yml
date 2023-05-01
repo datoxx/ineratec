@@ -1,0 +1,33 @@
+uuid: b4e6f349-6368-466e-a31d-9833742dc5ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.meilensteine.field_meilensteine_element
+    - field.field.paragraph.meilensteine.field_meilensteine_main_headline
+    - paragraphs.paragraphs_type.meilensteine
+  module:
+    - entity_reference_revisions
+    - text
+id: paragraph.meilensteine.default
+targetEntityType: paragraph
+bundle: meilensteine
+mode: default
+content:
+  field_meilensteine_element:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_meilensteine_main_headline:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

@@ -1,0 +1,19 @@
+uuid: c50c3e45-8bc2-4ccf-a242-cce3cb872f77
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_kontakt_subline
+    - paragraphs.paragraphs_type.kontakt
+id: paragraph.kontakt.field_kontakt_subline
+field_name: field_kontakt_subline
+entity_type: paragraph
+bundle: kontakt
+label: Subline
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

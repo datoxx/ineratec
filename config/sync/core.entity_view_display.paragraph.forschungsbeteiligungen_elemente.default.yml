@@ -1,0 +1,39 @@
+uuid: 32debf68-d21d-4f91-949e-ad4519b46c40
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.forschungsbeteiligungen_elemente.field_forschung_link
+    - field.field.paragraph.forschungsbeteiligungen_elemente.field_forschungs_logo
+    - paragraphs.paragraphs_type.forschungsbeteiligungen_elemente
+  module:
+    - svg_image
+id: paragraph.forschungsbeteiligungen_elemente.default
+targetEntityType: paragraph
+bundle: forschungsbeteiligungen_elemente
+mode: default
+content:
+  field_forschung_link:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_forschungs_logo:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

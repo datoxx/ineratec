@@ -1,0 +1,73 @@
+uuid: 79eff9a4-fa60-4af6-90f9-940486ab5d5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_news_elemente
+    - node.type.news
+    - paragraphs.paragraphs_type.artikel_bild
+    - paragraphs.paragraphs_type.artikel_headline
+    - paragraphs.paragraphs_type.artikel_text
+    - paragraphs.paragraphs_type.artikel_zitat
+  module:
+    - entity_reference_revisions
+id: node.news.field_news_elemente
+field_name: field_news_elemente
+entity_type: node
+bundle: news
+label: Elemente
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      artikel_bild: artikel_bild
+      artikel_headline: artikel_headline
+      artikel_text: artikel_text
+      artikel_zitat: artikel_zitat
+    negate: 0
+    target_bundles_drag_drop:
+      2_bildkacheln:
+        weight: 14
+        enabled: false
+      artikel_bild:
+        weight: 15
+        enabled: true
+      artikel_headline:
+        weight: 16
+        enabled: true
+      artikel_text:
+        weight: 17
+        enabled: true
+      artikel_zitat:
+        weight: 18
+        enabled: true
+      fakten_icon_element:
+        weight: 20
+        enabled: false
+      fakten_icons:
+        weight: 19
+        enabled: false
+      fakten_text:
+        weight: 21
+        enabled: false
+      fakten_text_element:
+        weight: 22
+        enabled: false
+      team:
+        weight: 23
+        enabled: false
+      team_element:
+        weight: 24
+        enabled: false
+      text_intro:
+        weight: 25
+        enabled: false
+      video_intro:
+        weight: 26
+        enabled: false
+field_type: entity_reference_revisions

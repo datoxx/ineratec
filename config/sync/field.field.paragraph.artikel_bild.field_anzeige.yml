@@ -1,0 +1,23 @@
+uuid: 9583ed58-2950-4353-b49d-a368eb1eee2c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_anzeige
+    - paragraphs.paragraphs_type.artikel_bild
+  module:
+    - options
+id: paragraph.artikel_bild.field_anzeige
+field_name: field_anzeige
+entity_type: paragraph
+bundle: artikel_bild
+label: Anzeige
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 'Kleines Bild'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

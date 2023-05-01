@@ -1,0 +1,27 @@
+uuid: 020c7ab6-64c6-472b-91ea-a9bcafd1bea5
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_anzeige
+field_name: field_anzeige
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '0'
+      label: 'Großes Bild'
+    -
+      value: '1'
+      label: 'Kleines Bild'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

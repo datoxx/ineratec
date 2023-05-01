@@ -1,0 +1,17 @@
+uuid: 0cb3d985-86b7-4721-a666-267c1758b8ca
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: News
+type: news
+description: 'INERATEC content type News'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

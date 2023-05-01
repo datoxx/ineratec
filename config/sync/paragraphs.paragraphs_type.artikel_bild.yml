@@ -1,0 +1,10 @@
+uuid: 5fe46910-3d6e-4c9e-88f9-b0a028155446
+langcode: en
+status: true
+dependencies: {  }
+id: artikel_bild
+label: 'Artikel Bild'
+icon_uuid: null
+icon_default: null
+description: 'INERATEC - Artikel Bild (Paragraph)'
+behavior_plugins: {  }

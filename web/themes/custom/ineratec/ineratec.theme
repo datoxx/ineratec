@@ -1,0 +1,20 @@
+<?php
+/**
+ * @file
+ * Implementing hook functions here
+ */
+
+function ineratec_preprocess_page(&$variables) {
+    $storage = Drupal::service('entity_type.manager')
+    ->getStorage('config_pages')
+    ->load('globale_einstellungen');
+    if ($storage) {
+        $variables['facebook'] = $storage->get('field_facebook')->value;
+        $variables['instagram'] = $storage->get('field_instagram')->value;
+        $variables['twitter'] = $storage->get('field_twitter')->value;
+        $variables['youtube'] = $storage->get('field_youtube')->value;
+        $variables['address'] = $storage->get('field_adresse')->value;
+        $variables['contact'] = $storage->get('field_contact')->value;
+        $variables['telephone'] = $storage->get('field_telefon')->value;
+    }
+}

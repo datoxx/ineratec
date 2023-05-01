@@ -1,0 +1,10 @@
+uuid: 8962bf6b-bbf8-4b86-bd8a-afeca66ad1cd
+langcode: en
+status: true
+dependencies: {  }
+id: 2_bildkacheln
+label: '2 Bildkacheln'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

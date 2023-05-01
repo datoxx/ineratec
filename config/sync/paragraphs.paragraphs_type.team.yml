@@ -1,0 +1,10 @@
+uuid: bae9407f-04c7-45ad-a592-d08eca2b1d81
+langcode: en
+status: true
+dependencies: {  }
+id: team
+label: Team
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

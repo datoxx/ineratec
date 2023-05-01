@@ -1,0 +1,78 @@
+uuid: e42e52ae-7c0f-40dd-be93-80a2ba95be05
+langcode: en
+status: true
+dependencies:
+  config:
+    - config_pages.type.globale_einstellungen
+    - field.field.config_pages.globale_einstellungen.field_adresse
+    - field.field.config_pages.globale_einstellungen.field_contact
+    - field.field.config_pages.globale_einstellungen.field_facebook
+    - field.field.config_pages.globale_einstellungen.field_instagram
+    - field.field.config_pages.globale_einstellungen.field_telefon
+    - field.field.config_pages.globale_einstellungen.field_twitter
+    - field.field.config_pages.globale_einstellungen.field_youtube
+  module:
+    - text
+id: config_pages.globale_einstellungen.default
+targetEntityType: config_pages
+bundle: globale_einstellungen
+mode: default
+content:
+  field_adresse:
+    type: text_textarea
+    weight: 4
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_contact:
+    type: text_textarea
+    weight: 5
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_facebook:
+    type: text_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_instagram:
+    type: text_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_telefon:
+    type: text_textfield
+    weight: 6
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_twitter:
+    type: text_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_youtube:
+    type: text_textfield
+    weight: 3
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  label: true

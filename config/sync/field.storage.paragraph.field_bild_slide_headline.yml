@@ -1,0 +1,21 @@
+uuid: de474b37-6c44-4237-88b1-0b01fd8098ab
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_bild_slide_headline
+field_name: field_bild_slide_headline
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

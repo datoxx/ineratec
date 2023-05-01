@@ -1,0 +1,31 @@
+uuid: 150c804b-247f-4cd4-91ec-ed2bb01d7d2e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.award.field_elemente_award
+    - field.field.node.award.field_headline_award
+    - field.field.node.award.field_subline_award
+    - field.field.node.award.field_teaser_award
+    - field.field.node.award.field_ubersichtsbild_award
+    - node.type.award
+  module:
+    - user
+id: node.award.teaser
+targetEntityType: node
+bundle: award
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_elemente_award: true
+  field_headline_award: true
+  field_subline_award: true
+  field_teaser_award: true
+  field_ubersichtsbild_award: true
+  langcode: true

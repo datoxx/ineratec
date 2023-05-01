@@ -1,0 +1,22 @@
+uuid: 68e9b086-ab11-4485-90a6-7cc3ceb56f0a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.aggregation.field_element_aggregation
+    - paragraphs.paragraphs_type.aggregation
+  module:
+    - options
+id: paragraph.aggregation.default
+targetEntityType: paragraph
+bundle: aggregation
+mode: default
+content:
+  field_element_aggregation:
+    type: list_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

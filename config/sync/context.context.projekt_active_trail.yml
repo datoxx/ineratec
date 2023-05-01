@@ -1,0 +1,30 @@
+uuid: 6ca83ae5-cd54-4c73-9b8a-b4fba1d64865
+langcode: en
+status: true
+dependencies:
+  module:
+    - context_active_trail
+    - node
+label: 'Projekt active trail'
+name: projekt_active_trail
+group: null
+description: ''
+requireAllConditions: false
+disabled: false
+conditions:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: a23485a1-8624-4d39-91fc-76ba12c46df6
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      projekt: projekt
+reactions:
+  active_trail:
+    id: active_trail
+    trail: 'meta:menu_link_content:2d06afb4-4a04-4d6c-9f9e-fbf433fcd3f4'
+    breadcrumbs: 1
+    breadcrumb_title: 0
+    uuid: 367bb47b-d01c-488a-839d-75ff40a7637c
+weight: 0

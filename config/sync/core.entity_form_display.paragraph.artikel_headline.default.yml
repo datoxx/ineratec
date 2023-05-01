@@ -1,0 +1,39 @@
+uuid: 5a008e58-afa8-4be9-9bf1-f043b04819e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.artikel_headline.field_artikel_headline
+    - field.field.paragraph.artikel_headline.field_artikel_headline_subline
+    - paragraphs.paragraphs_type.artikel_headline
+  module:
+    - text
+id: paragraph.artikel_headline.default
+targetEntityType: paragraph
+bundle: artikel_headline
+mode: default
+content:
+  field_artikel_headline:
+    type: text_textarea
+    weight: 11
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_artikel_headline_subline:
+    type: string_textarea
+    weight: 0
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

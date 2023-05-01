@@ -1,0 +1,21 @@
+uuid: 1085741f-f69d-44a0-8e70-5b14f269ffd7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_zitat
+    - paragraphs.paragraphs_type.artikel_zitat
+  module:
+    - text
+id: paragraph.artikel_zitat.field_zitat
+field_name: field_zitat
+entity_type: paragraph
+bundle: artikel_zitat
+label: Zitat
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="900px" viewBox="0 0 1920 900" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>overlay</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1920" height="900"></rect>
+    </defs>
+    <g id="Unternehmen" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Unternehmen-–-Impact" transform="translate(0.000000, -1800.000000)">
+            <g id="background-parallax" transform="translate(0.000000, 1800.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1" transform="translate(960.000000, 450.000000) scale(1, -1) translate(-960.000000, -450.000000) "></use>
+                </mask>
+                <use id="overlay" fill="#1C202D" opacity="0.200000003" transform="translate(960.000000, 450.000000) scale(1, -1) translate(-960.000000, -450.000000) " xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

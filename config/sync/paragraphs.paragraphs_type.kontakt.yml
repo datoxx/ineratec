@@ -1,0 +1,10 @@
+uuid: cf2ee94a-9a5c-424e-8e65-26e17c5b939b
+langcode: en
+status: true
+dependencies: {  }
+id: kontakt
+label: Kontakt
+icon_uuid: null
+icon_default: null
+description: 'INERATECT Kontakt paragraph'
+behavior_plugins: {  }

@@ -1,0 +1,37 @@
+uuid: 91a1c338-1830-4bd0-b2e2-2ac180926f0b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.page.field_elemente_inhaltsseite
+    - field.field.node.page.field_header_weiss_
+    - field.field.node.page.field_hintergrund_anzeigen
+    - node.type.page
+  module:
+    - entity_reference_revisions
+    - user
+_core:
+  default_config_hash: M_Y8L5tfmhx7DR143E05YyZSpvgil6VFvqcfBWykalg
+id: node.page.default
+targetEntityType: node
+bundle: page
+mode: default
+content:
+  field_elemente_inhaltsseite:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_header_weiss_: true
+  field_hintergrund_anzeigen: true
+  langcode: true

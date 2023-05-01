@@ -1,0 +1,9 @@
+name: Ineratec custom theme
+description: Ineratec custom theme for Drupal 8/9.
+core: 8.x
+core_version_requirement: ^8 || ^9 || ^10
+type: theme
+base theme: stable
+libraries:
+  - ineratec/global-styling
+  # - ineratec/map-lib

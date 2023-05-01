@@ -1,0 +1,47 @@
+uuid: f303905f-5b19-4af3-90b6-50cb75f5775a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.artikel_bild.field_anzeige
+    - field.field.paragraph.artikel_bild.field_artikel_bild
+    - field.field.paragraph.artikel_bild.field_bildunterschrift
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.artikel_bild
+  module:
+    - svg_image
+id: paragraph.artikel_bild.default
+targetEntityType: paragraph
+bundle: artikel_bild
+mode: default
+content:
+  field_anzeige:
+    type: options_select
+    weight: 12
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_artikel_bild:
+    type: image_image
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_bildunterschrift:
+    type: string_textfield
+    weight: 11
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,8 @@
+uuid: 3f1fc473-0125-440a-8312-a03dd9f7c22d
+langcode: de
+status: true
+dependencies: {  }
+id: fusszeile
+label: Fußzeile
+description: ''
+locked: false

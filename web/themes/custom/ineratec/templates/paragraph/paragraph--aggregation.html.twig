@@ -1,0 +1,26 @@
+{% set type = paragraph.field_element_aggregation.value %}
+
+{# <div class="lg:mb-[180px]">
+	<div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-x-[37px] lg:gap-y-[180px] px-5 gap-y-[80px] lg:max-w-[1370px] lg:mx-auto"> #}
+
+{% if type == "project" %}
+	{{ drupal_view('projekt_overview', 'block_1') }}
+{% endif %}
+
+{% if type == "news" %}
+	{{ drupal_view('news_overview', 'block_1') }}
+{% endif %}
+
+{% if type == "event" %}
+	{{ drupal_view('event_overview', 'block_1') }}
+{% endif %}
+
+{% if type == "casestudy" %}
+	{{ drupal_view('case_study_overview', 'block_1') }}
+{% endif %}
+
+{% if type == "award" %}
+	{{ drupal_view('award_overview', 'block_1') }}
+{% endif %}
+{# </div>
+</div> #}

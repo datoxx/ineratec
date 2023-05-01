@@ -1,0 +1,21 @@
+uuid: eb2bba5b-c4fa-43a6-81bd-65b08836f2cd
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_zitat_subline
+field_name: field_zitat_subline
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

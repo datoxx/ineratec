@@ -1,0 +1,33 @@
+uuid: 8517165b-5eb1-484a-9fea-7df0afd57925
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+    - node
+id: project_pathauto_in_german
+label: 'Project pathauto in German'
+type: 'canonical_entities:node'
+pattern: '/news/[node:title]'
+selection_criteria:
+  1c01cc2c-f061-413e-b714-7b86c0473f40:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 1c01cc2c-f061-413e-b714-7b86c0473f40
+    context_mapping:
+      node: node
+    bundles:
+      projekt: projekt
+  2364c3a9-6864-47c0-b5b9-97e0ffbe6c84:
+    id: language
+    negate: false
+    uuid: 2364c3a9-6864-47c0-b5b9-97e0ffbe6c84
+    context_mapping:
+      language: 'node:langcode:language'
+    langcodes:
+      de: de
+selection_logic: and
+weight: -10
+relationships:
+  'node:langcode:language':
+    label: Language

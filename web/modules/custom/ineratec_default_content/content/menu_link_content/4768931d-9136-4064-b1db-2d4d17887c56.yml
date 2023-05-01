@@ -1,0 +1,57 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 4768931d-9136-4064-b1db-2d4d17887c56
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    e331d1dc-42ff-4af0-8f40-3a74fb509128: menu_link_content
+    330643ca-363b-48ab-a5b3-3ce2f9ee6343: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: News
+  menu_name:
+    -
+      value: meta
+  link:
+    -
+      target_uuid: 330643ca-363b-48ab-a5b3-3ce2f9ee6343
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:e331d1dc-42ff-4af0-8f40-3a74fb509128'
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_status:
+    -
+      value: true
+  content_translation_created:
+    -
+      value: 1669215184

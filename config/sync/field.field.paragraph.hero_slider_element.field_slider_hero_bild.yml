@@ -1,0 +1,38 @@
+uuid: baa051f0-864e-410c-a31e-c28d2ae05c00
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_slider_hero_bild
+    - paragraphs.paragraphs_type.hero_slider_element
+  module:
+    - image
+id: paragraph.hero_slider_element.field_slider_hero_bild
+field_name: field_slider_hero_bild
+entity_type: paragraph
+bundle: hero_slider_element
+label: Bild
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png jpg svg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

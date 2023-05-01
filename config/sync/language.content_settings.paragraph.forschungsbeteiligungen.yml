@@ -1,0 +1,18 @@
+uuid: a5b09ee3-2489-4756-b656-fd7f064ab9a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.forschungsbeteiligungen
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.forschungsbeteiligungen
+target_entity_type_id: paragraph
+target_bundle: forschungsbeteiligungen
+default_langcode: site_default
+language_alterable: true

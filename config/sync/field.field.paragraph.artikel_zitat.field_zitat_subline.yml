@@ -1,0 +1,19 @@
+uuid: 68a36c36-5b32-4ea2-9e3e-80bd6b4c124b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_zitat_subline
+    - paragraphs.paragraphs_type.artikel_zitat
+id: paragraph.artikel_zitat.field_zitat_subline
+field_name: field_zitat_subline
+entity_type: paragraph
+bundle: artikel_zitat
+label: zitat_Subline
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

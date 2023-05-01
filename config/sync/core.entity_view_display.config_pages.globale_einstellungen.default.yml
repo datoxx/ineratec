@@ -1,0 +1,70 @@
+uuid: e047bbb6-55a7-4661-a1fb-e1841b4227d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - config_pages.type.globale_einstellungen
+    - field.field.config_pages.globale_einstellungen.field_adresse
+    - field.field.config_pages.globale_einstellungen.field_contact
+    - field.field.config_pages.globale_einstellungen.field_facebook
+    - field.field.config_pages.globale_einstellungen.field_instagram
+    - field.field.config_pages.globale_einstellungen.field_telefon
+    - field.field.config_pages.globale_einstellungen.field_twitter
+    - field.field.config_pages.globale_einstellungen.field_youtube
+  module:
+    - text
+id: config_pages.globale_einstellungen.default
+targetEntityType: config_pages
+bundle: globale_einstellungen
+mode: default
+content:
+  field_adresse:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_contact:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_facebook:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_instagram:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_telefon:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_twitter:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_youtube:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden: {  }

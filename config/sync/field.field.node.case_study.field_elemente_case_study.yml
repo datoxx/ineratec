@@ -1,0 +1,76 @@
+uuid: d4fce848-1b5c-4e12-a279-489add678c49
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_elemente_case_study
+    - node.type.case_study
+    - paragraphs.paragraphs_type.artikel_bild
+    - paragraphs.paragraphs_type.artikel_headline
+    - paragraphs.paragraphs_type.artikel_text
+    - paragraphs.paragraphs_type.artikel_zitat
+  module:
+    - entity_reference_revisions
+id: node.case_study.field_elemente_case_study
+field_name: field_elemente_case_study
+entity_type: node
+bundle: case_study
+label: Elemente
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      artikel_bild: artikel_bild
+      artikel_headline: artikel_headline
+      artikel_text: artikel_text
+      artikel_zitat: artikel_zitat
+    negate: 0
+    target_bundles_drag_drop:
+      2_bildkacheln:
+        weight: 15
+        enabled: false
+      artikel_bild:
+        weight: 16
+        enabled: true
+      artikel_headline:
+        weight: 17
+        enabled: true
+      artikel_text:
+        weight: 18
+        enabled: true
+      artikel_zitat:
+        weight: 19
+        enabled: true
+      bildslide_text:
+        weight: 20
+        enabled: false
+      fakten_icon_element:
+        weight: 21
+        enabled: false
+      fakten_icons:
+        weight: 22
+        enabled: false
+      fakten_text:
+        weight: 23
+        enabled: false
+      fakten_text_element:
+        weight: 24
+        enabled: false
+      team:
+        weight: 25
+        enabled: false
+      team_element:
+        weight: 26
+        enabled: false
+      text_intro:
+        weight: 27
+        enabled: false
+      video_intro:
+        weight: 28
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,18 @@
+uuid: b2a1c455-816e-459f-88b5-39b7510e2c16
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.artikel_headline
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.artikel_headline
+target_entity_type_id: paragraph
+target_bundle: artikel_headline
+default_langcode: site_default
+language_alterable: true

@@ -1,0 +1,27 @@
+{% set unode = drupal_entity('node', view.field.nid.original_value|trim) %}
+
+<div class="overflow-hidden lg:flex lg:flex-col lg:justify-between h-full">
+	<div>
+		<img class="w-full h-[188px] object-cover lg:h-[236px]" src="{{ file_url(unode['#node'].field_ubersichtsbild_news.entity.uri.value) }}" alt="ineratec"/>
+		<div class="mt-[19px] lg:mt-[28px] flex">
+			<div class="bg-gradient-to-b from-green to-blue min-w-[4px] mt-1.5 lg:mt-0.5"></div>
+			<div class="ml-[30px] pb-1 lg:pb-0">
+				<p class="heading-h6">
+					{{ unode['#node'].field_subline_news.value }}
+				</p>
+				<h3 class="heading-h4 mt-3 lg:mt-2.5">
+					{{ unode['#node'].field_headline_news.value }}
+				</h3>
+			</div>
+		</div>
+	</div>
+	<div>
+		<p class="p-normal lg:mt-[30px] mt-[34px]">
+			{{ unode['#node'].field_teaser_news.value }}
+		</p>
+		<a href="{{ path('entity.node.canonical', {'node': view.field.nid.original_value|trim }) }}" class="flex btn-text-blue mt-[30px]">
+			<span class="hover:underline mr-2 font-PtSansBold">{{ 'Mehr erfahren' | t }}</span>
+			<img src="/{{ base_path ~ directory }}/assets/icons/arrow-right-1.svg" alt=""/>
+		</a>
+	</div>
+</div>

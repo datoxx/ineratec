@@ -1,0 +1,39 @@
+uuid: 9302844b-e2f0-474c-b6a9-8e1b72f1c179
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.award.field_elemente_award
+    - field.field.node.award.field_headline_award
+    - field.field.node.award.field_subline_award
+    - field.field.node.award.field_teaser_award
+    - field.field.node.award.field_ubersichtsbild_award
+    - node.type.award
+  module:
+    - entity_reference_revisions
+    - user
+id: node.award.default
+targetEntityType: node
+bundle: award
+mode: default
+content:
+  field_elemente_award:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_headline_award: true
+  field_subline_award: true
+  field_teaser_award: true
+  field_ubersichtsbild_award: true
+  langcode: true

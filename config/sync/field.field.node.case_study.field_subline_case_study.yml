@@ -1,0 +1,19 @@
+uuid: c9211fc7-ae99-45ae-ade5-030d091290d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_subline_case_study
+    - node.type.case_study
+id: node.case_study.field_subline_case_study
+field_name: field_subline_case_study
+entity_type: node
+bundle: case_study
+label: Subline
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,21 @@
+uuid: bf83dda4-a8ff-4914-b45e-26596a60bafc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_element_aggregation
+    - paragraphs.paragraphs_type.aggregation
+  module:
+    - options
+id: paragraph.aggregation.field_element_aggregation
+field_name: field_element_aggregation
+entity_type: paragraph
+bundle: aggregation
+label: Element
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

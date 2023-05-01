@@ -1,0 +1,22 @@
+uuid: 4d84da38-9f75-4b96-a74f-e9c3cef26c57
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.forschungsbeteiligungen_elemente
+id: paragraph.forschungsbeteiligungen_elemente.status
+field_name: status
+entity_type: paragraph
+bundle: forschungsbeteiligungen_elemente
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

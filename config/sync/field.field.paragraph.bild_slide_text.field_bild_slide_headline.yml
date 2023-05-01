@@ -1,0 +1,19 @@
+uuid: 1c065661-edc8-4bf6-b4cc-04681ff5b64c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_bild_slide_headline
+    - paragraphs.paragraphs_type.bild_slide_text
+id: paragraph.bild_slide_text.field_bild_slide_headline
+field_name: field_bild_slide_headline
+entity_type: paragraph
+bundle: bild_slide_text
+label: Headline
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

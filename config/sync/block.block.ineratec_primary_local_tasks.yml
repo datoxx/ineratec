@@ -1,0 +1,22 @@
+uuid: 5276c2b5-2b85-42b7-8d69-1749f45de6bb
+langcode: en
+status: true
+dependencies:
+  theme:
+    - ineratec
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: ineratec_primary_local_tasks
+theme: ineratec
+region: highlighted
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

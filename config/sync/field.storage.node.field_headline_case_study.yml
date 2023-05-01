@@ -1,0 +1,21 @@
+uuid: 6ac828f0-2c87-4e1d-97c3-09bc23f9c5ab
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_headline_case_study
+field_name: field_headline_case_study
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

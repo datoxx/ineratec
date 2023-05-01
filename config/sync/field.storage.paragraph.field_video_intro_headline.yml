@@ -1,0 +1,19 @@
+uuid: 361be0c1-24ff-4b0c-975e-bb4f12c4eb31
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_video_intro_headline
+field_name: field_video_intro_headline
+entity_type: paragraph
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,10 @@
+uuid: 4eb1c831-7f39-4465-906f-7207d9d5164c
+langcode: en
+status: true
+dependencies: {  }
+id: artikel_headline
+label: 'Artikel Headline'
+icon_uuid: null
+icon_default: null
+description: 'INERATEC - Artikel Headline (Paragraph)'
+behavior_plugins: {  }

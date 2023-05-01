@@ -1,0 +1,274 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.content-wrapper {
+  @apply px-5 mx-auto max-w-[1370px];
+}
+
+.heading-h1 {
+  @apply text-[45px] leading-[45px] lg:text-[120px] lg:leading-[120px] md:text-[72px] md:leading-[72px] font-PtSansBold;
+}
+
+@media(min-width: 1024px) and (max-height: 840px){
+  .heading-h1 {
+    @apply text-[80px] leading-[80px] font-PtSansBold;
+  }
+}
+
+.heading-h2 {
+  @apply text-[28px] leading-[40px] lg:text-[70px] lg:leading-[90px] font-PtSansBold;
+}
+
+.heading-h3 {
+  @apply text-[24px] leading-[32px] lg:text-[50px] lg:leading-[62px] font-PtSansBold;
+}
+
+.heading-h4 {
+  @apply text-[22px] leading-[30px] lg:text-[30px] lg:leading-[38px] font-PtSansBold;
+}
+
+.heading-h5 {
+  @apply text-[20px] leading-[28px] lg:text-[20px] lg:leading-[30px] font-PtSansBold;
+}
+
+.heading-h6 {
+  @apply text-[14px] leading-[20px] font-PtSansBold text-green uppercase;
+}
+
+.p-intro {
+  @apply text-[20px] leading-[32px] md:text-[24px] md:leading-[36px] lg:text-[28px] lg:leading-[44px] font-PtSansBold;
+}
+
+.p-normal {
+  @apply text-[16px] leading-[30px] lg:text-[18px] lg:leading-[32px];
+}
+
+.p-small {
+  @apply text-[16px] leading-[28px];
+}
+
+.p-quote {
+  @apply text-[22px] leading-[32px] lg:text-[30px] lg:leading-[40px] text-blue font-PtSansItalic;
+}
+
+.p-caption {
+  @apply text-[14px] leading-[18px] text-gray;
+}
+
+.btn-bg-blue {
+  @apply rounded bg-blue md:px-[40px] pt-[17px] pb-[15px] md:w-fit w-full font-PtSansBold transition-all duration-150 hover:bg-lightBlue text-[16px] text-white text-center uppercase cursor-pointer;
+}
+
+.btn-large-bg-blue {
+  @apply rounded bg-blue md:px-[107px] pt-[17px] pb-[15px] md:w-fit w-full font-PtSansBold transition-all duration-150 hover:bg-lightBlue text-[16px] text-white text-center uppercase cursor-pointer;
+}
+
+.btn-text-blue {
+  @apply text-[16px] font-PtSansBold text-blue transition-all duration-150 hover:text-lightBlue cursor-pointer uppercase;
+}
+
+.btn-green-bordered {
+  @apply border-2 border-solid rounded border-green leading-5 lg:px-[40px] px-[23px] lg:pt-[7px] pt-[9px] lg:pb-[13px] pb-[11px] text-[16px] lg:text-[20px] cursor-pointer capitalize;
+}
+
+.ul-style {
+  @apply marker:text-blue list-outside list-disc ml-[14px];
+}
+
+.a-style {
+  @apply text-blue;
+}
+
+@font-face {
+  font-family: "PtSansBold";
+  src: url("../fonts/PTSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "PtSansItalic";
+  src: url("../fonts/PTSans-Italic.ttf");
+}
+
+@font-face {
+  font-family: "PtSansRegular";
+  src: url("../fonts/PTSans-Regular.ttf");
+}
+
+html {
+  font-family: PtSansRegular;
+}
+
+strong,b {
+  font-family: "PtSansBold";
+}
+
+footer p:hover{
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+/* Home Page Carousel */
+
+[class*="-carousel"] .swiper-pagination {
+  max-width: 80px !important;
+  transform: none !important;
+}
+
+[class*="-carousel"] .swiper-pagination .swiper-pagination-bullet {
+  background: #8d8f96;
+  opacity: 1;
+}
+[class*="-carousel"] .swiper-pagination .swiper-pagination-bullet-active {
+  background: #7bf0ac;
+}
+
+[class*="-carousel"] .swiper-button-disabled[role="button"] {
+  opacity: 0.6 !important;
+}
+
+/* end of Home Page Carousel */
+
+/* start leaflet map */
+
+.leaflet-container .leaflet-pane .leaflet-popup .leaflet-popup-content-wrapper .leaflet-popup-content {
+  width: unset!important;
+  margin: 0;
+}
+
+.leaflet-container .leaflet-pane .leaflet-popup .leaflet-popup-content-wrapper .leaflet-popup-content p {
+  margin: 0px!important;
+}
+
+.leaflet-container .leaflet-pane .leaflet-popup {
+  bottom: -17px!important;
+  left: -191px!important;
+}
+
+.leaflet-container .leaflet-pane .leaflet-popup .leaflet-popup-content-wrapper {
+  border-radius: 0;
+  background: none;
+  margin: 0;
+  padding: 0;
+  box-shadow: none!important;
+}
+
+.leaflet-popup-tip {
+  display: none;
+}
+
+.leaflet-container .leaflet-pane .leaflet-popup .leaflet-popup-content-wrapper .leaflet-popup-content .office-popup-content-container {
+  font-size: 16px;
+  background: white;
+  width: 300px!important;
+  padding: 18px 29px 17px 20px!important;
+  box-shadow: 0 3px 14px rgb(0 0 0 / 40%);
+}
+
+.leaflet-container .leaflet-pane .leaflet-popup .leaflet-popup-content-wrapper .leaflet-popup-content .project-popup-content-container {
+  font-size: 16px;
+  background: white;
+  width: 300px!important;
+  padding: 18px 29px 17px 20px!important;
+  box-shadow: 0 3px 14px rgb(0 0 0 / 40%);
+  margin-left: 10px;
+}
+
+.leaflet-popup-close-button {
+  margin-top: 3px;
+  margin-right: 7px;
+  width: unset!important;
+  height: unset!important;
+}
+
+.leaflet-popup-close-button > span {
+  font-size: 28px;
+  color: #8D8F96;
+}
+
+.leaflet-control-attribution {
+  display: none;
+}
+/* end of leaflet map */
+
+/* background images */
+.slider-wave {
+  background-image: url(../assets/swirl.svg);
+  background-repeat: no-repeat;
+  background-position-x: -195px;
+}
+
+@media (max-width: 1024px){
+  .slider-wave {
+    background-position-x: -645px;
+    background-position-y: -378px;
+  }
+}  
+
+@media (min-width: 1024px) {
+    .radial-gradient {
+      background-image: url(../assets/oval-left.svg), url(../assets/oval-right.svg);
+      background-position-x: left, right;
+      background-repeat: no-repeat, no-repeat;
+      background-size: 600px 1572px, 860px 1810px;
+  }
+  .radial-gradient-position-first {
+      background-position-y: 85vh, 130vh;
+  }
+  .radial-gradient-position-second {
+      background-position-y: 10vh, 70vh;
+  }
+}
+
+.video-gradient {
+  background-image: url(../assets/gradient.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+/* end background images */
+
+/* space-between for overviews */
+#block-ineratec-content .contextual-region .node-content .views-element-container .content-wrapper .views-infinite-scroll-content-wrapper .views-row .views-field {
+  height: 100%;
+}
+
+
+/* start vertical slider */
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  @media (max-width: 1023px){
+  
+
+  .years-vertical-slide  {
+    -webkit-align-items: baseline!important;
+    align-items: baseline!important;
+    margin-left: 26.6%;
+  }
+  }
+  
+
+  .years-vertical-slide  {
+    text-align: center;
+   
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+  
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+ .year-thumbs .swiper-slide-active {
+  opacity: 1;
+ }
+/* end of vertical slider */

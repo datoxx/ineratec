@@ -1,0 +1,10 @@
+uuid: 3eae9474-41af-4216-9976-e166c362feca
+langcode: en
+status: true
+dependencies: {  }
+id: bild_slide_text
+label: 'Bildslide + Text'
+icon_uuid: null
+icon_default: null
+description: 'This Paragraph shows a combination on Image and Text Element. '
+behavior_plugins: {  }

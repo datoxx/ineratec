@@ -1,0 +1,19 @@
+uuid: 41f8ada5-c341-4c12-8cca-0c694c169825
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_subline_event
+    - node.type.event
+id: node.event.field_subline_event
+field_name: field_subline_event
+entity_type: node
+bundle: event
+label: Subline
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

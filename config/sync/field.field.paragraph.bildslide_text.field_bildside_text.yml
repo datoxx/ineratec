@@ -1,0 +1,21 @@
+uuid: 1acab9d4-c293-48ff-93cf-d283b4bd4ca2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_bildside_text
+    - paragraphs.paragraphs_type.bildslide_text
+  module:
+    - text
+id: paragraph.bildslide_text.field_bildside_text
+field_name: field_bildside_text
+entity_type: paragraph
+bundle: bildslide_text
+label: Text
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

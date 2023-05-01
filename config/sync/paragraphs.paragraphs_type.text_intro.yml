@@ -1,0 +1,10 @@
+uuid: 357c2863-d65a-4922-8962-60dd4b71bbd9
+langcode: en
+status: true
+dependencies: {  }
+id: text_intro
+label: 'Text Intro'
+icon_uuid: null
+icon_default: null
+description: "\tINERATEC -Text Intro (Paragraph)"
+behavior_plugins: {  }

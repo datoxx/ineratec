@@ -1,0 +1,45 @@
+uuid: b0db4db9-e080-4b2f-8c4b-4269b348a1a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text_intro.field_headline
+    - field.field.paragraph.text_intro.field_text
+    - field.field.paragraph.text_intro.field_text_intro_button
+    - paragraphs.paragraphs_type.text_intro
+  module:
+    - link
+    - text
+id: paragraph.text_intro.default
+targetEntityType: paragraph
+bundle: text_intro
+mode: default
+content:
+  field_headline:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_text:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_text_intro_button:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

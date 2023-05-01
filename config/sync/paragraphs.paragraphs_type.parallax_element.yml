@@ -1,0 +1,10 @@
+uuid: 1ff849e1-755a-41d8-adbd-a8e97a761e0b
+langcode: en
+status: true
+dependencies: {  }
+id: parallax_element
+label: 'Parallax Element'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

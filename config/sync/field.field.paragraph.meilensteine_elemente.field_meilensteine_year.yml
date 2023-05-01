@@ -1,0 +1,19 @@
+uuid: a4c77ec3-0a75-4a6e-bd97-aa35b703d12e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_meilensteine_year
+    - paragraphs.paragraphs_type.meilensteine_elemente
+id: paragraph.meilensteine_elemente.field_meilensteine_year
+field_name: field_meilensteine_year
+entity_type: paragraph
+bundle: meilensteine_elemente
+label: Year
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

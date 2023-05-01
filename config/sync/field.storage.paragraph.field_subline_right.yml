@@ -1,0 +1,21 @@
+uuid: 1804850a-a4ce-4355-bbf2-6f79b5b320b4
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_subline_right
+field_name: field_subline_right
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

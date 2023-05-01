@@ -1,0 +1,42 @@
+global-styling:
+  css:
+    base:
+      css/swiperjs/swiperjs.min.css: { minified: true}
+      dist/tailwind.css: {}
+  js:
+    js/header.js: {}
+    js/main.js: {}
+    js/swiperjs/swiper-bundle.min.js: { minified: true }
+    js/gsap/gsap.min.js: { minified: true }
+    js/gsap/ScrollTrigger.min.js: { minified: true }
+    # js/gsap/ScrollToPlugin.min.js: { minified: true }
+
+leaflet-librarie:
+  css:
+    base:
+      js/leaflet/leaflet.css: {}
+  js:
+    js/leaflet/leaflet.js: {}
+
+
+map-lib:
+  js:
+    js/coordinates.js: {}
+    js/leaflet.js: {}
+
+
+bildslide-text:
+  js:
+    js/bildslide-text.js: {}
+participations-slider:
+  js:
+    js/participations-slider.js: {}
+hero-slider:
+  js:
+    js/hero-slider.js: {}
+scroll-animation:
+  js:
+    js/scroll-animation.js: {}
+vertical-slider:
+  js:
+    js/vertical-slider.js: {}

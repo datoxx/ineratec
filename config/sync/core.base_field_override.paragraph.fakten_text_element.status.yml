@@ -1,0 +1,22 @@
+uuid: 27656c78-01c0-433f-84d1-7e145a7f7c76
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.fakten_text_element
+id: paragraph.fakten_text_element.status
+field_name: status
+entity_type: paragraph
+bundle: fakten_text_element
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

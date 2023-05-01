@@ -1,0 +1,33 @@
+uuid: 108bafe1-00f0-4607-b7e5-ee1bf6770d38
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.forschungsbeteiligungen.field_forschung_elemente
+    - field.field.paragraph.forschungsbeteiligungen.field_forschungs_headline
+    - paragraphs.paragraphs_type.forschungsbeteiligungen
+  module:
+    - entity_reference_revisions
+id: paragraph.forschungsbeteiligungen.default
+targetEntityType: paragraph
+bundle: forschungsbeteiligungen
+mode: default
+content:
+  field_forschung_elemente:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_forschungs_headline:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

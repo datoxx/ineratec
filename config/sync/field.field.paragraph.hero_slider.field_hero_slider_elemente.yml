@@ -1,0 +1,73 @@
+uuid: 0a5fbbd8-9a27-4377-a582-551ab1aa6b3e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_hero_slider_elemente
+    - paragraphs.paragraphs_type.hero_slider
+    - paragraphs.paragraphs_type.hero_slider_element
+  module:
+    - entity_reference_revisions
+id: paragraph.hero_slider.field_hero_slider_elemente
+field_name: field_hero_slider_elemente
+entity_type: paragraph
+bundle: hero_slider
+label: Elemente
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      hero_slider_element: hero_slider_element
+    negate: 0
+    target_bundles_drag_drop:
+      2_bildkacheln:
+        weight: 17
+        enabled: false
+      artikel_bild:
+        weight: 18
+        enabled: false
+      artikel_headline:
+        weight: 19
+        enabled: false
+      artikel_text:
+        weight: 20
+        enabled: false
+      artikel_zitat:
+        weight: 21
+        enabled: false
+      fakten_icon_element:
+        weight: 22
+        enabled: false
+      fakten_icons:
+        weight: 23
+        enabled: false
+      fakten_text:
+        weight: 24
+        enabled: false
+      fakten_text_element:
+        weight: 25
+        enabled: false
+      hero_slider:
+        weight: 16
+        enabled: false
+      hero_slider_element:
+        weight: 26
+        enabled: true
+      team:
+        weight: 27
+        enabled: false
+      team_element:
+        weight: 28
+        enabled: false
+      text_intro:
+        weight: 29
+        enabled: false
+      video_intro:
+        weight: 30
+        enabled: false
+field_type: entity_reference_revisions

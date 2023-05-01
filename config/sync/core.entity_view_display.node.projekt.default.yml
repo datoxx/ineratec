@@ -1,0 +1,43 @@
+uuid: 608f9741-2140-4ab7-8d69-37884687b900
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.projekt.field_breitengrad_projekt
+    - field.field.node.projekt.field_elemente_projekt
+    - field.field.node.projekt.field_headline_projekt
+    - field.field.node.projekt.field_langengrad_projekt
+    - field.field.node.projekt.field_subline_projekt
+    - field.field.node.projekt.field_teaser_projekt
+    - field.field.node.projekt.field_ubersichtsbild
+    - node.type.projekt
+  module:
+    - entity_reference_revisions
+    - user
+id: node.projekt.default
+targetEntityType: node
+bundle: projekt
+mode: default
+content:
+  field_elemente_projekt:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_breitengrad_projekt: true
+  field_headline_projekt: true
+  field_langengrad_projekt: true
+  field_subline_projekt: true
+  field_teaser_projekt: true
+  field_ubersichtsbild: true
+  langcode: true

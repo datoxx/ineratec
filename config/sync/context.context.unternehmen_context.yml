@@ -1,0 +1,30 @@
+uuid: 6f5301a5-b00f-47d5-999a-85734a781d13
+langcode: en
+status: true
+dependencies:
+  module:
+    - context_active_trail
+    - node
+label: 'Event active trail'
+name: unternehmen_context
+group: null
+description: ''
+requireAllConditions: false
+disabled: false
+conditions:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: bda7adf6-58c0-4761-b1ac-115ae177b38e
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      event: event
+reactions:
+  active_trail:
+    id: active_trail
+    trail: 'meta:menu_link_content:c15bbdd0-ecdc-4a4e-9d83-825d14e8cc92'
+    breadcrumbs: 1
+    breadcrumb_title: 0
+    uuid: bdbbf15c-d59c-46f3-bfb4-775b3e92495a
+weight: 0

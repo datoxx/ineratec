@@ -1,0 +1,33 @@
+uuid: 05101a37-65ba-466c-a17e-47aafc115869
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+    - node
+id: inhaltsseite_pathauto_in_german
+label: 'Inhaltsseite pathauto in German'
+type: 'canonical_entities:node'
+pattern: '/[node:title]'
+selection_criteria:
+  fbcb27b7-f581-46f9-8770-7f34880afada:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: fbcb27b7-f581-46f9-8770-7f34880afada
+    context_mapping:
+      node: node
+    bundles:
+      page: page
+  f0908314-50ec-482e-bd0f-fb2535b41be8:
+    id: language
+    negate: false
+    uuid: f0908314-50ec-482e-bd0f-fb2535b41be8
+    context_mapping:
+      language: 'node:langcode:language'
+    langcodes:
+      de: de
+selection_logic: and
+weight: -10
+relationships:
+  'node:langcode:language':
+    label: Language

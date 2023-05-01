@@ -1,0 +1,45 @@
+uuid: 3af4e6d5-6b56-428a-92df-c7c8dfcc804a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_kontakt_bild
+    - paragraphs.paragraphs_type.kontakt
+  module:
+    - content_translation
+    - image
+third_party_settings:
+  content_translation:
+    translation_sync:
+      alt: alt
+      title: title
+      file: '0'
+id: paragraph.kontakt.field_kontakt_bild
+field_name: field_kontakt_bild
+entity_type: paragraph
+bundle: kontakt
+label: Bild
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png jpg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

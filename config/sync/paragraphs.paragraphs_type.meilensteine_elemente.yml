@@ -1,0 +1,10 @@
+uuid: cbdfb612-f480-4eeb-a01c-0a571c53d681
+langcode: en
+status: true
+dependencies: {  }
+id: meilensteine_elemente
+label: 'Meilensteine Elemente'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

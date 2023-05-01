@@ -1,0 +1,19 @@
+uuid: 522af7e2-876e-4c6b-b12e-5a81e686e431
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_bildside_headline
+    - paragraphs.paragraphs_type.bildslide_text
+id: paragraph.bildslide_text.field_bildside_headline
+field_name: field_bildside_headline
+entity_type: paragraph
+bundle: bildslide_text
+label: Headline
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

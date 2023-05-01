@@ -1,0 +1,18 @@
+uuid: 964007a8-f19e-4e53-a06b-3593bd4e6329
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.bild_slide_text
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.bild_slide_text
+target_entity_type_id: paragraph
+target_bundle: bild_slide_text
+default_langcode: en
+language_alterable: true

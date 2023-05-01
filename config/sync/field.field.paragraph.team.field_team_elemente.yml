@@ -1,0 +1,64 @@
+uuid: c1c8a720-5c06-4252-a934-0d9b3cf82038
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_team_elemente
+    - paragraphs.paragraphs_type.team
+    - paragraphs.paragraphs_type.team_element
+  module:
+    - entity_reference_revisions
+id: paragraph.team.field_team_elemente
+field_name: field_team_elemente
+entity_type: paragraph
+bundle: team
+label: Elemente
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      team_element: team_element
+    negate: 0
+    target_bundles_drag_drop:
+      2_bildkacheln:
+        weight: 14
+        enabled: false
+      artikel_bild:
+        weight: 15
+        enabled: false
+      artikel_headline:
+        weight: 16
+        enabled: false
+      artikel_zitat:
+        weight: 17
+        enabled: false
+      fakten_icon_element:
+        weight: 18
+        enabled: false
+      fakten_icons:
+        weight: 19
+        enabled: false
+      fakten_text:
+        weight: 20
+        enabled: false
+      fakten_text_element:
+        weight: 21
+        enabled: false
+      team:
+        weight: 13
+        enabled: false
+      team_element:
+        weight: 22
+        enabled: true
+      text_intro:
+        weight: 23
+        enabled: false
+      video_intro:
+        weight: 24
+        enabled: false
+field_type: entity_reference_revisions

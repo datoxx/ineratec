@@ -1,0 +1,19 @@
+uuid: f661977a-47f5-496c-8510-2b0ea2709542
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_artikel_headline_subline
+    - paragraphs.paragraphs_type.artikel_headline
+id: paragraph.artikel_headline.field_artikel_headline_subline
+field_name: field_artikel_headline_subline
+entity_type: paragraph
+bundle: artikel_headline
+label: Subline
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

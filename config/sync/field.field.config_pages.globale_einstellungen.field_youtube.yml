@@ -1,0 +1,21 @@
+uuid: 99e84d20-c9ff-477d-ba95-0414d4956919
+langcode: en
+status: true
+dependencies:
+  config:
+    - config_pages.type.globale_einstellungen
+    - field.storage.config_pages.field_youtube
+  module:
+    - text
+id: config_pages.globale_einstellungen.field_youtube
+field_name: field_youtube
+entity_type: config_pages
+bundle: globale_einstellungen
+label: Youtube
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text
